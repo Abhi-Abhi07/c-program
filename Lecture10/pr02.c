@@ -10,5 +10,6 @@ int main(){
         fprintf(ptr, "%d * %d = %d\n",num,i,num*i);
     }
     fclose(ptr);
+    printf("Successfully generated for table %d",num);
     return 0;
 }

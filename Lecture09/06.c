@@ -18,6 +18,6 @@ int main(){
     e1.salary=100000.25;
     strcpy(e1.name,"Ai");
     show(e1);
-    printf("%d\t",e1.code);
+    printf("\n%d\t",e1.code);
     return 0;
 }

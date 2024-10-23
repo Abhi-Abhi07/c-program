@@ -8,6 +8,7 @@ int main(){
     char c=fgetc(ptr1);
     while(c!=EOF){
             fputc(c, ptr2);
+            fputc(c, ptr2);
             c=fgetc(ptr1);
     }
     fclose(ptr1);

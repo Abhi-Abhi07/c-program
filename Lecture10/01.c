@@ -12,6 +12,6 @@ int main(){
     //again read starting
     ptr = fopen("Abhi.txt","r");
     fscanf(ptr, "%d", &num3);
-    printf("Num2 is : %d\n",num3);
+    printf("Num3 is : %d\n",num3);
     return 0;
 }

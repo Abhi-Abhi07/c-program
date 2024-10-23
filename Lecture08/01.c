@@ -10,7 +10,7 @@ int main(){
 
 
     // char str[]="Abhi";
-    char *ptr ="Abhi bhai";
+    char *ptr="Abhi bhai";
     printf("%s",ptr);
     return 0;
 }

@@ -6,5 +6,6 @@ int main(){
     int num;
     fscanf(ptr, "%d", &num);
     printf("num is : %d\n",num);
+    fclose(ptr);
     return 0;
 }

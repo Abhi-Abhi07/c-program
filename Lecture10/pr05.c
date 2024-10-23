@@ -8,5 +8,6 @@ int main(){
     printf("number is : %d",num);
     ptr=fopen("pr05.txt","w");
     fprintf(ptr,"%d",num*2);
+    fclose(ptr);
     return 0;
 }
